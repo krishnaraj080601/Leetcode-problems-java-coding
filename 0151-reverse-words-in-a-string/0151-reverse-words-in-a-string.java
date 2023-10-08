@@ -8,7 +8,7 @@ class Solution {
             s1.append(" ");
             }
         }
-        s1.setLength(s1.length()-1);
+        s1.delete(s1.length()-1,s1.length());
         return s1.toString();
     }
 }
